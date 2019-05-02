@@ -1,0 +1,35 @@
+using System;
+
+namespace Gaji
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Karyawan k = new Karyawan();
+			
+			
+
+				Console.WriteLine("Program Kenaikan Gaji");
+
+
+				Console.Write("masukan nik = ");
+				k.nik = Convert.ToString(Console.ReadLine());
+
+				Console.Write("masukan nama = ");
+				k.nama = Convert.ToString(Console.ReadLine());
+
+				Console.Write("masukan jabatan = ");
+				k.jabatan = Convert.ToString(Console.ReadLine());
+
+				k.infoGaji();
+				Console.WriteLine();
+				k.kenaikanGaji();
+				Console.WriteLine();
+				//Console.ReadKey;
+
+			
+			
+		}
+	}
+}
